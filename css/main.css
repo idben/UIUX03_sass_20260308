@@ -57,4 +57,76 @@
   --btn-color: #ffffff;
   --btn-bg-hover: #8c2ff7;
   --btn-bg-active: #670bd1;
+}
+
+.text-primary {
+  color: #0084ff;
+}
+
+.bg-primary {
+  background-color: #0084ff;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.text-warning {
+  color: #ff6f00;
+}
+
+.bg-warning {
+  background-color: #ff6f00;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.text-light {
+  color: #d6d5d5;
+}
+
+.bg-light {
+  background-color: #d6d5d5;
+}
+
+.text-dark {
+  color: #343333;
+}
+
+.bg-dark {
+  background-color: #343333;
+}
+
+.text-submit {
+  color: #7c11f7;
+}
+
+.bg-submit {
+  background-color: #7c11f7;
 }/*# sourceMappingURL=main.css.map */
