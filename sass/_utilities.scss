@@ -4,3 +4,5 @@
 @include generate-color-classes(v.$colors);
 
 @include generate-fs-classes(12, 100);
+
+@include generate-fw-classes(v.$weights);

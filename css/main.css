@@ -485,4 +485,16 @@
 
 .fs-100 {
   font-size: 100px;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
