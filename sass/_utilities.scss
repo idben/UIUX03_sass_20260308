@@ -2,3 +2,5 @@
 @use "mixins" as *;
 
 @include generate-color-classes(v.$colors);
+
+@include generate-fs-classes(12, 100);
