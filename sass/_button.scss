@@ -11,6 +11,11 @@
   text-align: center;
   border: 1px solid transparent;
   border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--btn-bg, #{v.$light});
+  color: var(--btn-color, #{v.$black});
+  transition: background-color 0.15s ease-in-out;
 
   &:hover {}
 
