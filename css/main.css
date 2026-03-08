@@ -1,0 +1,60 @@
+.btn {
+  display: inline-block;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background-color: var(--btn-bg, #d6d5d5);
+  color: var(--btn-color, #000000);
+  transition: background-color 0.15s ease-in-out;
+}
+.btn:hover {
+  background-color: var(--btn-bg-hover, #d6d5d5);
+}
+.btn:active {
+  background-color: var(--btn-bg-active, #d6d5d5);
+}
+
+.btn-primary {
+  --btn-bg: #0084ff;
+  --btn-color: #ffffff;
+  --btn-bg-hover: #006acc;
+  --btn-bg-active: #005cb3;
+}
+
+.btn-danger {
+  --btn-bg: #dc3545;
+  --btn-color: #ffffff;
+  --btn-bg-hover: #b02a37;
+  --btn-bg-active: #9a2530;
+}
+
+.btn-success {
+  --btn-bg: #28a745;
+  --btn-color: #ffffff;
+  --btn-bg-hover: #208637;
+  --btn-bg-active: #1c7530;
+}
+
+.btn-warning {
+  --btn-bg: #ff6f00;
+  --btn-color: #ffffff;
+  --btn-bg-hover: #cc5900;
+  --btn-bg-active: #b34e00;
+}
+
+.btn-submit {
+  --btn-bg: #7c11f7;
+  --btn-color: #ffffff;
+  --btn-bg-hover: #8c2ff7;
+  --btn-bg-active: #670bd1;
+}/*# sourceMappingURL=main.css.map */
