@@ -6,3 +6,7 @@
 @include generate-fs-classes(12, 100);
 
 @include generate-fw-classes(v.$weights);
+
+@include generate-shadow-classes(v.$shadows);
+
+@include generate-spacing-classes(0, 100, 4)
